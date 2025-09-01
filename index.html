@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LearnLoop • AI Micro-Learning</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="LearnLoop: AI-powered micro-learning for Africa (SDG 4).">
+</head>
+<body>
+  <header class="app-header">
+    <img src="assets/logo.png" alt="LearnLoop logo" class="logo">
+  </header>
+  <main class="container" role="main">
+    <section id="welcome" class="card">
+      <h1>LearnLoop</h1>
+      <p>AI-powered micro-learning. 5-minute lessons, instant feedback, and daily streaks.</p>
+      <button id="startBtn" class="btn">Start</button>
+    </section>
+
+    <section id="subject" class="card hidden" aria-live="polite">
+      <h2>Pick a subject</h2>
+      <div class="grid">
+        <button class="chip" data-subject="math">Math</button>
+        <button class="chip" data-subject="coding">Coding</button>
+        <button class="chip" data-subject="english">English</button>
+      </div>
+    </section>
+
+    <section id="quiz" class="card hidden" aria-live="polite">
+      <div class="row space-between">
+        <div id="streak">🔥 Streak: 0</div>
+        <div id="points">⭐ Points: 0</div>
+      </div>
+      <h2 id="qText">Question will appear here</h2>
+      <div id="options" class="options"></div>
+      <button id="nextBtn" class="btn secondary hidden">Next</button>
+    </section>
+
+    <section id="summary" class="card hidden">
+      <h2>Great job! 🎉</h2>
+      <p id="summaryText"></p>
+      <div class="row">
+        <button id="againBtn" class="btn">Try another set</button>
+        <button id="shareBtn" class="btn secondary">Copy share text</button>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">© 2025 LearnLoop — SDG 4: Quality Education</footer>
+  <script src="script.js"></script>
+</body>
+</html>

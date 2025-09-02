@@ -1,7 +1,6 @@
 # LearnLoop 📚✨  
-AI-powered peer-to-peer learning assistant  
 
-## 🚀 About the Project  
+## 🚀 Project Overview 
 LearnLoop is an intelligent platform that helps learners explain, teach, and reinforce knowledge using **AI-driven peer learning loops**.  
 Instead of just consuming content, students **teach back what they learned** — making learning stick 3x faster.  
 
@@ -24,7 +23,7 @@ Instead of just consuming content, students **teach back what they learned** —
 **Vision:** 1 million African students empowered by 2028.  
 
 ## 👥 Team  
-- Augusto Mate – Project Lead, Concept & Demo  
+- **Augusto Mate** – Project Lead, Concept & Demo  
 
 ## 🔗 Live Demo & Links  
 - 📂 **GitHub Repository**: https://github.com/Augusto047/learnloop  
